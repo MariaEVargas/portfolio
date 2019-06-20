@@ -1,0 +1,102 @@
+body,
+html{
+   margin:  0; 
+   padding: 0;
+   font-size:18px;
+}
+body{
+   background:#ccc ;
+   background-size:100%;
+   background-attachment:fixed;
+}
+
+img{
+   width: 70%; 
+   border-radius: 50px;
+   height:auto;
+}
+.principal{
+  width: 960px;
+  color: #444;
+  margin: 0 auto;
+  font-family:sans-serif;
+}
+.cabecalho, 
+.logo, 
+.rodape,
+li{
+   color: black;
+   padding: 1px;
+   font-size: 18px;
+ }
+ p{
+  color:black;
+  font-size: 18px;
+  padding-top: 0px;
+ }
+ h2{
+  color: black;
+ }
+ ul{
+  padding-top:0px;
+ }
+ .c1{
+font-family: Oswald;
+font-size: 20px;
+}
+.cabecalho{
+  height:100px;
+}
+.logo-cabecalho{
+  float:left;
+}
+.logo-cabecalho a{
+  font-size:50px;
+  font-style:italic;
+  text-decoration:none;
+  color:#000;
+  display:block;
+  padding:20px 0 0 0;
+}
+
+.corpo{
+  position:relative;
+  overflow:hidden;
+}
+.centro{
+  float:right;
+  width: 90%
+}
+.centro, .centro:before{
+  width:70%;
+  
+}
+.centro:before{
+  position:absolute;
+  top:0;
+  left:5;
+  bottom:0;
+  background:#fff;
+  z-index:-1;
+  content:'';
+}
+.barra-lateral{
+  text-align: left;
+  float:left;
+}
+.barra-lateral, .barra-lateral:before{
+  width:30%;
+}
+.barra-lateral:before{
+   content: '';
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right:5;
+    z-index: -1;
+    background:#95b9f4;
+    
+}
+.espacamento{
+  padding:20px;
+}
